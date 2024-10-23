@@ -1,0 +1,73 @@
+.settings_main{
+    min-height: 80vh !important;
+}
+ul{
+    list-style: none ;
+}
+.snav_h{
+    min-height: 60vh ;
+}
+fieldset{
+    border: 2px solid transparent!important;
+}
+.textfield_w{
+    width: 20rem !important;
+}
+.s_hover:hover{
+    background-color: #bae8e8 !important;
+    color: white !important;
+}
+.bg_sl{
+    background-color: #bae8e8 !important;
+}
+.bg-dzone{
+    /* background-color: lightcoral  */
+}
+.b-red{
+    border: 2px solid red;
+}
+.h_20rem{
+    max-height: 25rem !important;
+    max-width: 40rem !important;
+    
+}
+.mw-25{
+    width: 25%;
+}
+@media only screen and (max-width: 600px) {
+   .set-mob{
+    flex-direction: column !important;
+   }
+   .setnav-mob{
+    width: 100% !important;
+    height: 20rem !important;
+   }
+   .mw-75{
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+   }
+   .fd-c{
+    flex-direction: column;
+    margin: 0 !important;
+   }
+   .textfield_w{
+    margin: 0.5rem 0 !important;
+   }
+
+  }
+
+.mw-75{
+    width: 75%;
+}
+.mms-4{
+margin-left: 1.5rem;
+}
+.mmy-3{
+ margin: 1rem 0;
+}
+.mmy-5{
+    margin: 2rem 0;
+}
+  

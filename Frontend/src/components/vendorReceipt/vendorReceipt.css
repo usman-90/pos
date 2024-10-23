@@ -1,0 +1,7 @@
+.vendor_r{
+    width: 27rem !important;
+    height: 16rem !important;
+}
+.vendor_r:hover{
+    background-color: rgb(240, 239, 239);
+}

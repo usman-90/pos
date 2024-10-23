@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+  .flex-mob{
+    flex-direction: column !important;
+  }
+  }
+  
+.barcode-close-btn{
+	position: fixed;
+	top: 10%;
+	right: 10%;
+}

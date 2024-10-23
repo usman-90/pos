@@ -1,0 +1,51 @@
+.w-20rem{
+    width: 20rem !important;
+}
+
+.h-13rem{
+    height: 13rem;
+}
+
+.w-card{
+    width: 20rem !important
+}
+
+.c1{
+ background-color: rgba(255, 99, 132, 0.3);
+}
+.c2{
+background-color: rgba(54, 162, 235, 0.3);
+}
+
+.c3{
+background-color: rgba(255, 206, 86, 0.3);
+}
+.c4{
+background-color: rgba(75, 192, 192, 0.3);
+}
+.c5{
+background-color: rgba(153, 102, 255, 0.3);
+}
+.c6{
+background-color: rgba(255, 159, 64, 0.3);
+}
+
+.c1:hover{
+    background-color: rgba(255, 99, 132, 0.4);
+   }
+   .c2:hover{
+   background-color: rgba(54, 162, 235, 0.4);
+   }
+   
+   .c3:hover{
+   background-color: rgba(255, 206, 86, 0.4);
+   }
+   .c4:hover{
+   background-color: rgba(75, 192, 192, 0.4);
+   }
+   .c5:hover{
+   background-color: rgba(153, 102, 255, 0.4);
+   }
+   .c6:hover{
+   background-color: rgba(255, 159, 64, 0.4);
+   }

@@ -1,0 +1,127 @@
+.d_main{
+    min-height: 80vh;
+}
+.modal_bg{
+    height: 35rem !important;
+    overflow-y: auto;
+}
+.bgmodal_bg{
+    height: 42rem !important;
+    overflow-y: auto;
+}
+@media only screen and (min-width: 600px) {
+   .mob-vendor{
+    display: none !important;
+   }
+   .pc_vendor{
+    display: flex !important;
+   }
+   .subheadiv{
+    padding-left: 3rem !important;
+   }
+  }
+@media only screen and (max-width: 600px) {
+    .pc_vendor{
+     display: none !important;
+    }
+   .mob-vendor{
+    display: flex;
+   }}
+
+@media only screen and (max-width: 400px){
+    .subheadiv > h1{
+        font-size: 22px !important;
+    }
+    .subheadiv{
+        padding-left: 1rem !important;
+        margin-left: 0 !important;
+    }
+}
+.t_main{
+    border-radius: 1rem !important;
+}
+td{
+    max-width: 43rem;
+}
+.b_tb{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.nbg:nth-child(odd){
+    background-color: white;
+}
+.nbg:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+button:disabled{
+    color: gray !important;
+}
+.abs_tr{
+    position: absolute;
+    top: 2rem;
+    right: 28rem;
+}
+.m2{
+    width: 8rem !important;
+}
+
+.w-15rem{
+    width: 17rem !important;
+}
+.jf-between{
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-mob{
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .bnts{
+    margin: 1.5rem 0 !important;
+  }
+  .inp-mob{
+    justify-content: start !important;
+  }
+  .m2{
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  .input-s{
+    width: 15rem !important;
+  }
+  .t-div{
+      overflow-x: scroll !important;
+  }
+}
+
+
+.scan-inp{
+ border: 1.5px solid lightgrey;
+
+box-shadow: 0px 5px 5px -5px rgba(64, 64, 64, 0.7);
+  
+}
+.scan-inp:focus, .scan-inp:focus-visible{
+	outline: none !important;
+}
+
+.custTableRowBg>:nth-child(odd){
+	background-color: white;
+}
+.gradient-button{
+	background: radial-gradient(344.87% 2932.25% at -33.65% -70.51%, #38CFDD 0%, #48CBD3 26.34%, #D7F4F5 63.69%, #FFFFFF 100%);
+}
+.gradient-red{
+    background: radial-gradient(344.87% 2932.25% at -33.65% -70.51%, #e44343 0%, #fd746c 26.34%, #fdd5d5 63.69%, #FFFFFF 100%);
+}
+
+
+  
+.horizontal-line {
+    width: 100%;
+    border: none;
+    border-top: 2px dashed #000; 
+    margin: 20px 0; 
+  }
